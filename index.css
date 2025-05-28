@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-
-
-#log{
-  background-image: url(./image/bg.webp);
-  background-position: center;
-  background-size: cover;
+*{
+  font-family: monospace;
 }

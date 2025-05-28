@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
-import AuthForm from './components/AuthForm';
+import React from 'react'
+import Nav from './components/Nav';
+import MainRoutes from './routes/MainRoutes';
 
 const App = () => {
-const [toggle,setToggle] = useState(true)
   return (
-    <div>
-      <AuthForm toggle ={toggle} setToggle={setToggle} />
-      
-    </div>
+    <>
+      <div>
+        <Nav/>
+        <MainRoutes/>
+      </div>
+    </>
   )
 }
 
